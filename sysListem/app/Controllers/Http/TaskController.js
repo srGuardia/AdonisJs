@@ -23,7 +23,7 @@ class TaskController {
       request.all(),
       {
         title: "required|min:5|max:140",
-        body: "required|min:10"
+        body: "required|min:5"
       },
       message
     );
